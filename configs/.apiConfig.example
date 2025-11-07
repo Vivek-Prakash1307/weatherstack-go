@@ -1,0 +1,8 @@
+{
+  "OpenWeatherMapApiKey": "5aa85edefd94c29ea343cb21563aa912",
+  "CacheExpiryMinutes": 10,
+  "RateLimitPerMinute": 100,
+  "MaxConcurrentRequests": 50,
+  "ServerPort": "8080",
+  "LogLevel": "info"
+}

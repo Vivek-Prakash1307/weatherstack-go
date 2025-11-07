@@ -1,0 +1,12 @@
+weather_api:
+  api_key: "5aa85edefd94c29ea343cb21563aa912"
+  cache_expiry_minutes: 10
+  rate_limit_per_minute: 100
+  max_concurrent_requests: 50
+  base_url: "https://api.openweathermap.org/data/2.5/weather"
+
+server:
+  port: "8080"
+
+log:
+  level: "info"
