@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: weatherstack-go
+    env: go
+    buildCommand: go build -o main ./cmd/server
+    startCommand: ./main
+    envVars:
+      - key: GO_VERSION
+        value: 1.25.3
